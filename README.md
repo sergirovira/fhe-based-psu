@@ -1,0 +1,2 @@
+Private Set Union (PSU) refers to a cryptographic protocol that allows two (mutually distrusted) parties with private input sets $X$ and $Y$ to compute the union $X \cup Y$ without revealing any additional information. The code presented here allows
+us to compute the PSU of two parties with up to $2^{12}$ elements each in little more than $3$ hours using $98\text{G}$ of RAM, with parameters achieving $128$ bits of security.
